@@ -1,0 +1,8 @@
+spring:
+  lifecycle:
+    timeout-per-shutdown-phase: 15s
+
+  elasticsearch:
+    uris: '34.64.135.49:9200'
+    socket-timeout: 500ms
+    connection-timeout: 200ms
